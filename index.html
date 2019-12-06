@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="zerozero_username">
+    <meta name="description" content="freecodecamp html/css project">
+    <meta name="content" content="documentation page">
+    <title>Documentation Page</title>
+    <link rel="stylesheet" href="scss/grid.css">
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+
+<body>
+
+    <main id="main-doc">
+        <section class="main-section">
+            <header id="python">
+               <h2>
+                Introduction
+               </h2> 
+            </header>
+        </section>
+        <section id="introduction" class="main-section">
+            <p>
+                While The Python Language Reference describes the exact syntax and semantics of the Python language,
+                this library reference manual describes the standard library that is distributed with Python. It also
+                describes some of the optional components that are commonly included in Python distributions.
+            </p>
+            <p>
+                Python’s standard library is very extensive, offering a wide range of facilities as indicated by the
+                long table of contents listed below. The library contains built-in modules (written in C) that provide
+                access to system functionality such as file I/O that would otherwise be inaccessible to Python
+                programmers, as well as modules written in Python that provide standardized solutions for many problems
+                that occur in everyday programming. Some of these modules are explicitly designed to encourage and
+                enhance the portability of Python programs by abstracting away platform-specifics into platform-neutral
+                APIs.
+            </p>
+            <br>
+        </section>
+        <section id="built-in-functions" class="main-section">
+            <h3>
+                Built-in Functions
+            </h3>
+            <p>
+                The Python interpreter has a number of functions and types built into it that are always available. They
+                are listed here in alphabetical order.
+            </p>
+            <h4>
+                abs
+            </h4>
+            <p>
+                Return the absolute value of a number. The argument may be an integer or a floating point number. If the
+                argument is a complex number, its magnitude is returned.
+            </p>
+            <br>
+            <h4>
+                all
+            </h4>
+            <p>
+                Return <b>True</b> if all elements of the <i>iterable</i> are true (or if the iterable is empty).
+                Equivalent to:
+
+                <table>
+                    <code>
+                        def all(iterable):
+                            for element in iterable:
+                                if not element:
+                                    return False
+                            return True
+                    </code>
+                </table>
+            </p>
+            <br>
+            <h4>
+                any
+            </h4>
+            <p>
+                Return <b>True</b> if any element of the <i>iterable</i> is true. If the iterable is empty, return
+                <b>False</b>. Equivalent to:
+
+                <table>
+                    <code>
+                        def any(iterable):
+                            for element in iterable:
+                                if element:
+                                    return True
+                            return False
+                    </code>
+                </table>
+            </p>
+        </section>
+        <section id="built-in-constants" class="main-section">
+        </section>
+        <section class="main-section"></section>
+    </main>
+
+</body>
+
+</html>
