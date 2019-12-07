@@ -2,7 +2,19 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "style.scss"
+        "style.scss",
+        "../node_modules/susy/sass/_susy.scss",
+        "../node_modules/susy/sass/_susy-prefix.scss",
+        "../node_modules/susy/sass/_version.scss",
+        "../node_modules/susy/sass/susy/_utilities.scss",
+        "../node_modules/susy/sass/susy/_su-validate.scss",
+        "../node_modules/susy/sass/susy/_su-math.scss",
+        "../node_modules/susy/sass/susy/_settings.scss",
+        "../node_modules/susy/sass/susy/_normalize.scss",
+        "../node_modules/susy/sass/susy/_parse.scss",
+        "../node_modules/susy/sass/susy/_syntax-helpers.scss",
+        "../node_modules/susy/sass/susy/_api.scss",
+        "../node_modules/susy/sass/susy/_unprefix.scss"
     ],
     "names": [],
     "file": "style.css"

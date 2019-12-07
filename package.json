@@ -1,0 +1,28 @@
+{
+  "name": "doc-page",
+  "version": "1.0.0",
+  "description": "documentation example page project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerozero-username/doc-page.git"
+  },
+  "keywords": [
+    "doc-page",
+    "project",
+    "freecodecamp",
+    "html",
+    "css",
+    "sass",
+    "scss"
+  ],
+  "author": "zerozero-username",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zerozero-username/doc-page/issues"
+  },
+  "homepage": "https://github.com/zerozero-username/doc-page#readme"
+}
