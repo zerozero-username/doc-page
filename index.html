@@ -18,9 +18,9 @@
     <main id="main-doc">
         <section class="main-section">
             <header id="python">
-               <h2>
-                Introduction
-               </h2> 
+                <h2>
+                    Introduction
+                </h2>
             </header>
         </section>
         <section id="introduction" class="main-section">
@@ -91,8 +91,37 @@
                     </code>
                 </table>
             </p>
+            <h4>bin</h4>
+            <p>Convert an integer number to a binary string prefixed with <i>“0b”</i>. The result is a valid Python
+                expression.
+                If x is not a Python <i>int</i> object, it has to define an <b>__index__()</b> method that returns an
+                integer. Some
+                examples:
+
+                <table>
+                    <code>
+                        >>> bin(3)
+                        '0b11'
+                        >>> bin(-10)
+                        '-0b1010'
+                    </code>
+                </table>
+            </p>
+            <p>
+                If prefix “0b” is desired or not, you can use either of the following ways:
+                
+                <table>
+                    <code>
+                        >>> format(14, '#b'), format(14, 'b')
+                        ('0b1110', '1110')
+                        >>> f'{14:#b}', f'{14:b}'
+                        ('0b1110', '1110') 
+                    </code>
+                </table>
+            </p>
         </section>
         <section id="built-in-constants" class="main-section">
+            <h3></h3>
         </section>
         <section class="main-section"></section>
     </main>
